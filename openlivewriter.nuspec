@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openlivewriter</id>
+    <title>openlivewriter (Install)</title>
+    <version>0.5.0.0</version>
+    <authors>See list of authors at http://openlivewriter.org/ <authors>
+    <owners>Darwin Sanoy</owners>
+    <summary>Open Live Writer makes it easy to write, preview, and post to your blog.</summary>
+    <description>Open Live Writer is an open source application enabling users to author, edit, and publish blog posts.
+      It is based on a fork of the well-loved but not actively developed Windows Live Writer code.
+    </description>
+    <projectUrl>http://openlivewriter.org/</projectUrl>
+    <projectSourceUrl>https://github.com/OpenLiveWriter</projectSourceUrl>
+    <tags>openlivewriter</tags>
+    <copyright>.NET Foundation</copyright>
+    <licenseUrl>https://github.com/OpenLiveWriter/OpenLiveWriter/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/openlivewriter.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
